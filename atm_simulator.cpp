@@ -16,13 +16,13 @@ bool validatePIN(string enteredPIN, string correctPIN);
 void printTransactionHistory(const vector<string> &history);
 
 int main() {
-    double balance = 1000.0;  // Initial balance
-    double dailyLimit = 500.0;  // Set a daily withdrawal limit
+    double balance = 5000.0;  // Initial balance
+    double dailyLimit = 700.0;  // Set a daily withdrawal limit
     double dailyWithdrawn = 0.0; // Track daily withdrawals
     int choice;
     double amount;
     string enteredPIN;
-    string correctPIN = "1234";  // Default PIN for the user (you can change this)
+    string correctPIN = "0410";  // Default PIN for the user (you can change this)
     
     vector<string> transactionHistory; // Vector to store transaction history
 
